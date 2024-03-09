@@ -1,8 +1,6 @@
 # DataDrivenSustainabilityLab
 Welcome to my repository, where I share a collection of academic projects undertaken during my Bachelor's in Statistical Sciences and my Master's in Greening Energy Market and Finance. This repository serves as a comprehensive showcase of my journey through the realms of machine learning, deep learning, and various data science techniques, all meticulously applied to the intricate worlds of finance and energy markets/sustainability.
 
-Objectives
-
 The primary objectives of this repository are to:
 
     - Demonstrate proficiency in statistical sciences and their application in addressing real-world challenges within the sustainability and energy sectors.
