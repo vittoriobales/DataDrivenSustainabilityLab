@@ -64,8 +64,8 @@ mean_data = aggregated_data / len(locations)
 
 print(mean_data)
 
-DATABASE = 'nudsata'
-conn_str = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER=SQLNUS;DATABASE=nusdata;Trusted_Connection=yes'
+DATABASE = #insert your code#
+conn_str =#insert your code#
 
 connection_url = URL.create("mssql+pyodbc", query={"odbc_connect": conn_str})
 engine = create_engine(connection_url)
@@ -80,7 +80,7 @@ def execute_query(query):
         df = pd.read_sql_query(query, conn)
     return df
 
-query = "SELECT * FROM ELETTRICO.Renewable_Generation"  # Adjust your query accordingly
+query = "SELECT * FROM TERNA.Renewable_Generation"  # Adjust your query accordingly, given your SQL Database
 df = execute_query(query)
 
 #The df contains the renewable Production data from TERNA 
